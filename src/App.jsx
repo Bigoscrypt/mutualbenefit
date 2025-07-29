@@ -1,4 +1,5 @@
 import './index.css';
+import logo from './assets/logo.png';
 import React, { useState, useEffect, createContext, useContext, useCallback } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
@@ -411,7 +412,7 @@ const firebaseConfig = {
 
 
 <div className="flex justify-center mt-4">
-  <img src="src/assets/logo.png" alt="Logo" className="h-16" />
+  <img src={logo} alt="Logo" className="mx-auto h-10" />
 </div>
 
 
