@@ -411,7 +411,7 @@ const firebaseConfig = {
 
 
 <div className="flex justify-center mt-4">
-  <img src="blob/src/assets/logo.png" alt="Logo" className="h-16" />
+  <img src="src/assets/logo.png" alt="Logo" className="h-16" />
 </div>
 
 
